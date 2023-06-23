@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val sum = calculations("Visa", 8000, 60500.0)
+    val sum = calculations("Visa", 8000, 6500.0)
 
     if (sum === -1.0) {
         println("Превышен лимит операций")
