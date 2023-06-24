@@ -11,7 +11,7 @@ class MainKtTest {
 
         val result = calculations(paymentSystem, amountPrevious, amount)
 
-        assertEquals(-1.0, result, 0.1)
+        assertEquals(0.0, result, 0.1)
     }
 
     @Test
